@@ -22,7 +22,7 @@ defaultContentLanguage = "en"
     doctor_name_ar = "دكتوره سلمي حسن عبّد الجليل طبيبه الأسنان"
     site_name = "Dr. Salma Hassan"
     og_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
-    favicon_image = ""
+    favicon_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
     twitter_handle = ""
     keywords = [
       "dentist",
