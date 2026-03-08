@@ -1,363 +1,364 @@
-baseURL = "https://portfoliohubs.github.io/drsalmahassan/"
-languageCode = "en-us"
-title = "Dr. Salma Hassan"
-defaultContentLanguage = "en"
+  baseURL = "https://portfoliohubs.github.io/drsalmahassan/"
+  languageCode = "en-us"
+  title = "Dr. Salma Hassan"
+  defaultContentLanguage = "en"
 
-[params]
-  # Hero Section
-  [params.hero]
-    name = "Dr. Salma Hassan"
-    tagline = "Bachelor's degree in oral and dental surgery"
-    graduation = "Graduated 2024 - Faculty of Dentistry"
-    profile_image = "https://github.com/user-attachments/assets/0cba1cce-9265-484b-9ce2-eb385a2cb069"
-    profile_image_alt = "Profile photo of Dr. Salma Hassan"
-    
-    [params.hero.current_position]
-      role = "Bachelor's degree in oral and dental surgery"
-      clinic = "Private clinic"
-
-  [params.seo]
-    description = "Professional dental portfolio"
-    doctor_name_en = "Dr. Salma Hassan"
-    doctor_name_ar = "دكتوره سلمي حسن عبّد الجليل طبيبه الأسنان"
-    site_name = "Dr. Salma Hassan"
-    og_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
-    favicon_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
-    twitter_handle = ""
-    keywords = [
-      "dentist",
-      "dental clinic",
-      "cosmetic dentistry",
-      "restorative dentistry",
-      "Dr. Salma Hassan",
-      "zagazig",
-      "DENTIST IN ZAGAZIG",
-      "DENTAL CLINIC IN ZAGAZIG",
-      "DENTAL CLINIC",
-      "dr salma hassan"
-    ]
-    keywords_ar = [
-      "طبيب أسنان",
-      "عيادة أسنان",
-      "تجميل الأسنان",
-      "ترميم الأسنان",
-      "د. سلمي حسن",
-      "طبيب بالزقازيق",
-      "عيادة بالزقازيق",
-      "دكتور سلمي حسن",
-      "عيادة سلمي حسن",
-      "عيادة اسنان الشرقية",
-      "سلمي حسن اسنان"
-    ]
-
-  [params.integrations]
-    google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
-    google_analytics_measurement_id = ""
-
-  [params.ui]
-    [params.ui.nav]
-      profile = "Profile"
-      skills = "Skills"
-      education = "Education"
-      clinical_cases = "Clinical Cases"
-      cases_short = "Cases"
-      blog = "Blog"
-      contact = "Contact"
-
-    [params.ui.skills]
-      title = "Professional Skills"
-      clinical_title = "Clinical Skills"
-      digital_title = "Digital Skills"
-      soft_title = "Soft Skills"
-
-    [params.ui.education]
-      title = "Education & Timeline"
-      graduated_label = "Graduated"
-      career_timeline_title = "Career Timeline"
-      courses_title = "Courses & Certifications"
-
-    [params.ui.cases]
-      title = "Clinical Cases"
-      subtitle = "Clinical Cases Gallery"
-
-    [params.ui.blog]
-      title = "Latest Articles"
-      subtitle = "Insights and Knowledge"
-      empty_text = "No blog posts yet"
-
-    [params.ui.contact]
-      title = "Get In Touch"
-      subtitle = "Let's connect and collaborate"
-      follow_me_title = "Follow Me"
-
-    [params.ui.labels]
-      now_working_as = "Now working as"
-      at = "at"
-      phone = "Phone"
-      whatsapp = "WhatsApp"
-      email = "Email"
-      location = "Location"
-      get_directions = "Get Directions"
-      masters_degree = "Master's Degree"
-      phd_degree = "PhD Degree"
-      rights_reserved = "All rights reserved"
-
-  # Skills Section
-  [params.skills]
-    clinical = [
-      "All gp skills",
-      "Ortho"
-    ]
-    
-    digital = [
-      "Mobile photography",
-      "PowerPoint"
-    ]
-    
-    soft = [
-      "Yes"
-    ]
-
-  # Education Section
-  [params.education]
-    university = "Zagazig University"
-    graduation_year = "2024"
-    
-    [params.education.master]
-      obtained = false
-      title = "Master in Oral Medicine"
-      year = ""
-    
-    [params.education.phd]
-      obtained = false
-      title = "PhD in Dental Sciences"
-      year = ""
-    
-    [[params.education.timeline]]
-      year = "2019"
-      event = "Start faculty of dentistry"
-    
-    [[params.education.timeline]]
-      year = "2024"
-      event = "Graduated from faculty of dentistry"
-    
-    # Certificates (images will be uploaded via GitHub issues)
-    # [[params.education.certificates]]
-    #   title = "Advanced Endodontics Course"
-    #   image = "cert1.jpg"
-  # Clinical Cases Section
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Surgery"
-    category_ar = "جراحه"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/ddf593d9-c25c-45df-9b3c-59fff78f2c75"
-      alt = "Surgical extraction of lower 8 partially impacted with conservative flap"
-      description = "Surgical extraction of lower 8 partially impacted with conservative flap"
-      alt_ar = "دي حاله خلع ضرس عقل كان مدفون جزئيا"
-      description_ar = "دي حاله خلع ضرس عقل كان مدفون جزئيا"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/d0551591-c7fc-43ec-a146-9248c814d9fe"
-      alt = "Extraction of multiple teeth"
-      description = "Extraction of multiple teeth"
-      alt_ar = "حاله خلع ضروس"
-      description_ar = "حاله خلع ضروس"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/372e8043-47a2-4a9f-813b-261841a27290"
-      alt = "Extraction of lower 8 with 5 roots"
-      description = "Extraction of lower 8 with 5 roots"
-      alt_ar = "حاله خلع ضرس عقل ب ٥ جدور"
-      description_ar = "حاله خلع ضرس عقل ب ٥ جدور"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Endodontics"
-    category_ar = "اندو"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/360094b1-8679-4505-b991-5d5722a5ca6f"
-      alt = "Endo ttt (rct). Of lower 6 with 4 canals"
-      description = "Endo ttt (rct). Of lower 6 with 4 canals"
-      alt_ar = "حاله ضرس رقم ٦ عصب لور"
-      description_ar = "حاله ضرس رقم ٦ عصب لور"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/241e4aef-a072-437c-81d7-1440a58e5003"
-      alt = "Rct of upper 6 with composite final restoration"
-      description = "Rct of upper 6 with composite final restoration"
-      alt_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
-      description_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/dfd21c15-ae92-46d3-869c-5189491c3375"
-      alt = "Rct of lower 6"
-      description = "Rct of lower 6"
-      alt_ar = "عصب الضرس السادس سفلي"
-      description_ar = "عصب الضرس السادس سفلي"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/7b2eb633-9959-478d-99e3-20e5e07ab15f"
-      alt = "Operative case of lower 6 class 1 composite restoration"
-      description = "Operative case of lower 6 class 1 composite restoration"
-      alt_ar = "حاله حشو عادي بالليزر لضرس ال سادس سفلي"
-      description_ar = "حاله حشو عادي بالليزر لضرس ال سادس سفلي"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/bb1935b2-d3af-42eb-a219-2acdb0689f6b"
-      alt = "Composite restoration of lower 6"
-      description = "Composite restoration of lower 6"
-      alt_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
-      description_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/9be4afd7-25fb-4adb-b7ac-be58901bb33f"
-      alt = "Class V composite restoration of upper ant teeth"
-      description = "Class V composite restoration of upper ant teeth"
-      alt_ar = "حاله حشو تجميلي لأسنان إماميه"
-      description_ar = "حاله حشو تجميلي لأسنان إماميه"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Bridge (Fixed Prosthodontics)"
-    category_ar = "بريدج ( تركيبات ثابته )"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/5f2c3142-5930-4a6b-bc3e-8b21386101b2"
-      alt = "Controlled diabetic patient need a fixed bridge with a trials to make this with a success result"
-      description = "Controlled diabetic patient need a fixed bridge with a trials to make this with a success result"
-      alt_ar = "حاله رجل كبير في السن مش عاوز يعمل تركيبه متحركه مع محاولات عمل اللي باقي تحت التركيبه عصب عشان تتحمل التركيبه حسب رغبته وهو مريض سكر ولكن تحت السيطره"
-      description_ar = "حاله رجل كبير في السن مش عاوز يعمل تركيبه متحركه مع محاولات عمل اللي باقي تحت التركيبه عصب عشان تتحمل التركيبه حسب رغبته وهو مريض سكر ولكن تحت السيطره"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Pediatric"
-    category_ar = "بيدو"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/a735e41d-be8b-4290-8c77-b0061d5f0868"
-      alt = "Pulpotomy with st-st crown"
-      description = "Pulpotomy with st-st crown"
-      alt_ar = "حاله حشو إزاله عصب جزئي للأطفال وعمل حشو وطربوش للحفاظ عليه"
-      description_ar = "حاله حشو إزاله عصب جزئي للأطفال وعمل حشو وطربوش للحفاظ عليه"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/48ec6b6d-619b-4150-ae42-9d911c07dda7"
-      alt = "Bilateral Lower space maintainer"
-      description = "Bilateral Lower space maintainer"
-      alt_ar = "حاله حافظ مسافه سفلي في الجانبين"
-      description_ar = "حاله حافظ مسافه سفلي في الجانبين"
+  [params]
+    # Hero Section
+    [params.hero]
+      name = "Dr. Salma Hassan"
+      tagline = "Bachelor's degree in oral and dental surgery"
+      graduation = "Graduated 2024 - Faculty of Dentistry"
+      profile_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
+      profile_image_alt = "Profile photo of Dr. Salma Hassan"
       
-  # Contact Section
-  [params.contact]
-    phone = "01200130216"
-    whatsapp = "01200130216"
-    email = "salmahassa777n@gmail.com"
-    instagram = "https://www.instagram.com/salmahassa777n?igsh=Mnd3dGw2dHB1Y2Zq&utm_source=qr"
-    facebook = ""
-    linkedin = ""
-    
-    [params.contact.location]
+      [params.hero.current_position]
+        role = "Bachelor's degree in oral and dental surgery"
+        clinic = "Private clinic"
+
+    [params.seo]
+      description = "Professional dental portfolio"
+      doctor_name_en = "Dr. Salma Hassan"
+      doctor_name_ar = "دكتوره سلمي حسن عبّد الجليل طبيبه الأسنان"
+      site_name = "Dr. Salma Hassan"
+      og_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
+      favicon_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
+      twitter_handle = ""
+      keywords = [
+        "dentist",
+        "dental clinic",
+        "cosmetic dentistry",
+        "restorative dentistry",
+        "Dr. Salma Hassan",
+        "zagazig",
+        "DENTIST IN ZAGAZIG",
+        "DENTAL CLINIC IN ZAGAZIG",
+        "DENTAL CLINIC",
+        "dr salma hassan"
+      ]
+      keywords_ar = [
+        "طبيب أسنان",
+        "عيادة أسنان",
+        "تجميل الأسنان",
+        "ترميم الأسنان",
+        "د. سلمي حسن",
+        "طبيب بالزقازيق",
+        "عيادة بالزقازيق",
+        "دكتور سلمي حسن",
+        "عيادة سلمي حسن",
+        "عيادة اسنان الشرقية",
+        "سلمي حسن اسنان"
+      ]
+
+    [params.integrations]
+      google_search_console_verification = "6VtKNI5qnSYsfjCTBMfnm9PuZjjR7aYh6crmofpS8yw"
+      google_analytics_measurement_id = ""
+
+    [params.ui]
+      [params.ui.nav]
+        profile = "Profile"
+        skills = "Skills"
+        education = "Education"
+        clinical_cases = "Clinical Cases"
+        cases_short = "Cases"
+        blog = "Blog"
+        contact = "Contact"
+
+      [params.ui.skills]
+        title = "Professional Skills"
+        clinical_title = "Clinical Skills"
+        digital_title = "Digital Skills"
+        soft_title = "Soft Skills"
+
+      [params.ui.education]
+        title = "Education & Timeline"
+        graduated_label = "Graduated"
+        career_timeline_title = "Career Timeline"
+        courses_title = "Courses & Certifications"
+
+      [params.ui.cases]
+        title = "Clinical Cases"
+        subtitle = "Clinical Cases Gallery"
+
+      [params.ui.blog]
+        title = "Latest Articles"
+        subtitle = "Insights and Knowledge"
+        empty_text = "No blog posts yet"
+
+      [params.ui.contact]
+        title = "Get In Touch"
+        subtitle = "Let's connect and collaborate"
+        follow_me_title = "Follow Me"
+
+      [params.ui.labels]
+        now_working_as = "Now working as"
+        at = "at"
+        phone = "Phone"
+        whatsapp = "WhatsApp"
+        email = "Email"
+        location = "Location"
+        get_directions = "Get Directions"
+        masters_degree = "Master's Degree"
+        phd_degree = "PhD Degree"
+        rights_reserved = "All rights reserved"
+
+    # Skills Section
+    [params.skills]
+      clinical = [
+        "All gp skills",
+        "Ortho"
+      ]
+      
+      digital = [
+        "Mobile photography",
+        "PowerPoint"
+      ]
+      
+      soft = [
+      "pediatric patients management",
+      "time management"
+    ]  
+
+    # Education Section
+    [params.education]
+      university = "Zagazig University"
+      graduation_year = "2024"
+      
+      [params.education.master]
+        obtained = false
+        title = "Master in Oral Medicine"
+        year = ""
+      
+      [params.education.phd]
+        obtained = false
+        title = "PhD in Dental Sciences"
+        year = ""
+      
+      [[params.education.timeline]]
+        year = "2019"
+        event = "Start faculty of dentistry"
+      
+      [[params.education.timeline]]
+        year = "2024"
+        event = "Graduated from faculty of dentistry"
+      
+      # Certificates (images will be uploaded via GitHub issues)
+      # [[params.education.certificates]]
+      #   title = "Advanced Endodontics Course"
+      #   image = "cert1.jpg"
+    # Clinical Cases Section
+    [[params.clinical_cases]]
       enabled = true
+      category = "Surgery"
+      category_ar = "جراحه"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/ddf593d9-c25c-45df-9b3c-59fff78f2c75"
+        alt = "Surgical extraction of lower 8 partially impacted with conservative flap"
+        description = "Surgical extraction of lower 8 partially impacted with conservative flap"
+        alt_ar = "دي حاله خلع ضرس عقل كان مدفون جزئيا"
+        description_ar = "دي حاله خلع ضرس عقل كان مدفون جزئيا"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/d0551591-c7fc-43ec-a146-9248c814d9fe"
+        alt = "Extraction of multiple teeth"
+        description = "Extraction of multiple teeth"
+        alt_ar = "حاله خلع ضروس"
+        description_ar = "حاله خلع ضروس"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/372e8043-47a2-4a9f-813b-261841a27290"
+        alt = "Extraction of lower 8 with 5 roots"
+        description = "Extraction of lower 8 with 5 roots"
+        alt_ar = "حاله خلع ضرس عقل ب ٥ جدور"
+        description_ar = "حاله خلع ضرس عقل ب ٥ جدور"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "Endodontics"
+      category_ar = "اندو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/360094b1-8679-4505-b991-5d5722a5ca6f"
+        alt = "Endo ttt (rct). Of lower 6 with 4 canals"
+        description = "Endo ttt (rct). Of lower 6 with 4 canals"
+        alt_ar = "حاله ضرس رقم ٦ عصب لور"
+        description_ar = "حاله ضرس رقم ٦ عصب لور"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/241e4aef-a072-437c-81d7-1440a58e5003"
+        alt = "Rct of upper 6 with composite final restoration"
+        description = "Rct of upper 6 with composite final restoration"
+        alt_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
+        description_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/dfd21c15-ae92-46d3-869c-5189491c3375"
+        alt = "Rct of lower 6"
+        description = "Rct of lower 6"
+        alt_ar = "عصب الضرس السادس سفلي"
+        description_ar = "عصب الضرس السادس سفلي"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "Operative"
+      category_ar = "اوبرتيف"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/7b2eb633-9959-478d-99e3-20e5e07ab15f"
+        alt = "Operative case of lower 6 class 1 composite restoration"
+        description = "Operative case of lower 6 class 1 composite restoration"
+        alt_ar = "حاله حشو عادي بالليزر لضرس ال سادس سفلي"
+        description_ar = "حاله حشو عادي بالليزر لضرس ال سادس سفلي"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/bb1935b2-d3af-42eb-a219-2acdb0689f6b"
+        alt = "Composite restoration of lower 6"
+        description = "Composite restoration of lower 6"
+        alt_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
+        description_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/9be4afd7-25fb-4adb-b7ac-be58901bb33f"
+        alt = "Class V composite restoration of upper ant teeth"
+        description = "Class V composite restoration of upper ant teeth"
+        alt_ar = "حاله حشو تجميلي لأسنان إماميه"
+        description_ar = "حاله حشو تجميلي لأسنان إماميه"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "Bridge (Fixed Prosthodontics)"
+      category_ar = "بريدج ( تركيبات ثابته )"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/5f2c3142-5930-4a6b-bc3e-8b21386101b2"
+        alt = "Controlled diabetic patient need a fixed bridge with a trials to make this with a success result"
+        description = "Controlled diabetic patient need a fixed bridge with a trials to make this with a success result"
+        alt_ar = "حاله رجل كبير في السن مش عاوز يعمل تركيبه متحركه مع محاولات عمل اللي باقي تحت التركيبه عصب عشان تتحمل التركيبه حسب رغبته وهو مريض سكر ولكن تحت السيطره"
+        description_ar = "حاله رجل كبير في السن مش عاوز يعمل تركيبه متحركه مع محاولات عمل اللي باقي تحت التركيبه عصب عشان تتحمل التركيبه حسب رغبته وهو مريض سكر ولكن تحت السيطره"
+
+    [[params.clinical_cases]]
+      enabled = true
+      category = "Pediatric"
+      category_ar = "بيدو"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/a735e41d-be8b-4290-8c77-b0061d5f0868"
+        alt = "Pulpotomy with st-st crown"
+        description = "Pulpotomy with st-st crown"
+        alt_ar = "حاله حشو إزاله عصب جزئي للأطفال وعمل حشو وطربوش للحفاظ عليه"
+        description_ar = "حاله حشو إزاله عصب جزئي للأطفال وعمل حشو وطربوش للحفاظ عليه"
+      
+      [[params.clinical_cases.cases]]
+        photo = "https://github.com/user-attachments/assets/48ec6b6d-619b-4150-ae42-9d911c07dda7"
+        alt = "Bilateral Lower space maintainer"
+        description = "Bilateral Lower space maintainer"
+        alt_ar = "حاله حافظ مسافه سفلي في الجانبين"
+        description_ar = "حاله حافظ مسافه سفلي في الجانبين"
+        
+    # Contact Section
+    [params.contact]
+      phone = "01200130216"
+      whatsapp = "01200130216"
+      email = "salmahassa777n@gmail.com"
+      instagram = "https://www.instagram.com/salmahassa777n?igshid=Mnd3dGw2dHB1Y2Zq&utm_source=qr"
+      facebook = ""
+      linkedin = ""
+      
+      [params.contact.location]
+        enabled = true
+        address = "الشرقيه القنايات"
+        latitude = "30.6176762171013"
+        longitude = "31.45993540231675"
+
+  # Arabic Translations
+  [params.ar]
+    [params.ar.hero]
+      name = "سلمي حسن عبد الجليل عبده التلباني"
+      tagline = "خريجه حاصله علي درجه بكالريوس طب وجراحه الفم والأسنان"
+      graduation = "تخرج 2024 - كلية طب الأسنان"
+      profile_image_alt = "صورة الملف الشخصي للدكتوره سلمي حسن"
+      
+      [params.ar.hero.current_position]
+        role = "خريجه حاصله علي درجه بكالريوس طب وجراحه الفم والأسنان"
+        clinic = "بعمل في عياده خاصه"
+    
+  [params.ar.skills]
+      clinical = [
+        "اجيد جميع الخدمات بالاضافه الي اني اشتغل اورثوا بدائيا"
+      ]
+      
+      digital = [
+        "اجيد التصوير بكاميرا الموبايل ويعرف اشتغل علي الباوربوينت"
+      ]
+      
+      soft = [
+      "إدارة الوقت، التواصل مع المرضى سن الاطفال"
+    ]  
+      
+    
+    [params.ar.education]
+      university = "جامعه الزقازيق"
+      
+      [params.ar.education.master]
+        title = "ماجستير في طب الفم"
+      
+      [params.ar.education.phd]
+        title = "دكتوراه في علوم الأسنان"
+      
+      [[params.ar.education.timeline]]
+        event = "2019 الدخول الى الكليه"
+      
+      [[params.ar.education.timeline]]
+        event = "2024 التخرج من الكليه"  
+
+    [params.ar.contact.location]
       address = "الشرقيه القنايات"
-      latitude = "30.6176762171013"
-      longitude = "31.45993540231675"
 
-# Arabic Translations
-[params.ar]
-  [params.ar.hero]
-    name = "سلمي حسن عبد الجليل عبده التلباني"
-    tagline = "خريجه حاصله علي درجه بكالريوس طب وجراحه الفم والأسنان"
-    graduation = "تخرج 2024 - كلية طب الأسنان"
-    profile_image_alt = "صورة الملف الشخصي للدكتوره سلمي حسن"
-    
-    [params.ar.hero.current_position]
-      role = "خريجه حاصله علي درجه بكالريوس طب وجراحه الفم والأسنان"
-      clinic = "بعمل في عياده خاصه"
-  
-[params.ar.skills]
-    clinical = [
-      "اجيد جميع الخدمات بالاضافه الي اني اشتغل اورثوا بدائيا"
-    ]
-    
-    digital = [
-      "اجيد التصوير بكاميرا الموبايل ويعرف اشتغل علي الباوربوينت"
-    ]
-    
-    soft = [
-      "اجيد كل هذا"
-    ]
-    
-  
-  [params.ar.education]
-    university = "جامعه الزقازيق"
-    
-    [params.ar.education.master]
-      title = "ماجستير في طب الفم"
-    
-    [params.ar.education.phd]
-      title = "دكتوراه في علوم الأسنان"
-    
-    [[params.ar.education.timeline]]
-      event = "2019 الدخول الى الكليه"
-    
-    [[params.ar.education.timeline]]
-      event = "2024 التخرج من الكليه"  
+    [params.ar.ui]
+      [params.ar.ui.nav]
+        profile = "الملف الشخصي"
+        skills = "المهارات"
+        education = "التعليم"
+        clinical_cases = "الحالات السريرية"
+        cases_short = "الحالات"
+        blog = "المدونة"
+        contact = "التواصل"
 
-  [params.ar.contact.location]
-    address = "الشرقيه القنايات"
+      [params.ar.ui.skills]
+        title = "المهارات المهنية"
+        clinical_title = "المهارات السريرية"
+        digital_title = "المهارات الرقمية"
+        soft_title = "المهارات الشخصية"
 
-  [params.ar.ui]
-    [params.ar.ui.nav]
-      profile = "الملف الشخصي"
-      skills = "المهارات"
-      education = "التعليم"
-      clinical_cases = "الحالات السريرية"
-      cases_short = "الحالات"
-      blog = "المدونة"
-      contact = "التواصل"
+      [params.ar.ui.education]
+        title = "التعليم والخط الزمني"
+        graduated_label = "تخرج"
+        career_timeline_title = "الخط الزمني المهني"
+        courses_title = "الدورات والشهادات"
 
-    [params.ar.ui.skills]
-      title = "المهارات المهنية"
-      clinical_title = "المهارات السريرية"
-      digital_title = "المهارات الرقمية"
-      soft_title = "المهارات الشخصية"
+      [params.ar.ui.cases]
+        title = "الحالات السريرية"
+        subtitle = "معرض الحالات السريرية"
 
-    [params.ar.ui.education]
-      title = "التعليم والخط الزمني"
-      graduated_label = "تخرج"
-      career_timeline_title = "الخط الزمني المهني"
-      courses_title = "الدورات والشهادات"
+      [params.ar.ui.blog]
+        title = "أحدث المقالات"
+        subtitle = "رؤى ومعرفة"
+        empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
 
-    [params.ar.ui.cases]
-      title = "الحالات السريرية"
-      subtitle = "معرض الحالات السريرية"
+      [params.ar.ui.contact]
+        title = "تواصل معي"
+        subtitle = "لنتواصل ونتعاون"
+        follow_me_title = "تابعني"
 
-    [params.ar.ui.blog]
-      title = "أحدث المقالات"
-      subtitle = "رؤى ومعرفة"
-      empty_text = "لا توجد مقالات بعد. أضف أول مقال في config.toml"
-
-    [params.ar.ui.contact]
-      title = "تواصل معي"
-      subtitle = "لنتواصل ونتعاون"
-      follow_me_title = "تابعني"
-
-    [params.ar.ui.labels]
-      now_working_as = "أعمل حالياً ك"
-      at = "في"
-      phone = "الهاتف"
-      whatsapp = "واتساب"
-      email = "البريد"
-      location = "الموقع"
-      get_directions = "احصل على الاتجاهات"
-      masters_degree = "درجة الماجستير"
-      phd_degree = "درجة الدكتوراه"
-      rights_reserved = "جميع الحقوق محفوظة"
+      [params.ar.ui.labels]
+        now_working_as = "أعمل حالياً ك"
+        at = "في"
+        phone = "الهاتف"
+        whatsapp = "واتساب"
+        email = "البريد"
+        location = "الموقع"
+        get_directions = "احصل على الاتجاهات"
+        masters_degree = "درجة الماجستير"
+        phd_degree = "درجة الدكتوراه"
+        rights_reserved = "جميع الحقوق محفوظة"
