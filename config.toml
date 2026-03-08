@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
     name = "Dr. Salma Hassan"
     tagline = "Bachelor's degree in oral and dental surgery"
     graduation = "Graduated 2024 - Faculty of Dentistry"
-    profile_image = "https://github.com/user-attachments/assets/d24422bb-d255-4d08-b6ad-03c48b47261a"
+    profile_image = "https://github.com/user-attachments/assets/0cba1cce-9265-484b-9ce2-eb385a2cb069"
     profile_image_alt = "Profile photo of Dr. Salma Hassan"
     
     [params.hero.current_position]
