@@ -22,7 +22,7 @@ defaultContentLanguage = "en"
     doctor_name_ar = "دكتوره سلمي حسن عبّد الجليل طبيبه الأسنان"
     site_name = "Dr. Salma Hassan"
     og_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
-    favicon_image = "https://github.com/user-attachments/assets/ed329620-db83-476c-a649-5040032629b7"
+    favicon_image = ""
     twitter_handle = ""
     keywords = [
       "dentist",
@@ -157,6 +157,20 @@ defaultContentLanguage = "en"
       description = "Surgical extraction of lower 8 partially impacted with conservative flap"
       alt_ar = "دي حاله خلع ضرس عقل كان مدفون جزئيا"
       description_ar = "دي حاله خلع ضرس عقل كان مدفون جزئيا"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/d0551591-c7fc-43ec-a146-9248c814d9fe"
+      alt = "Extraction of multiple teeth"
+      description = "Extraction of multiple teeth"
+      alt_ar = "حاله خلع ضروس"
+      description_ar = "حاله خلع ضروس"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/372e8043-47a2-4a9f-813b-261841a27290"
+      alt = "Extraction of lower 8 with 5 roots"
+      description = "Extraction of lower 8 with 5 roots"
+      alt_ar = "حاله خلع ضرس عقل ب ٥ جدور"
+      description_ar = "حاله خلع ضرس عقل ب ٥ جدور"
 
   [[params.clinical_cases]]
     enabled = true
@@ -169,6 +183,20 @@ defaultContentLanguage = "en"
       description = "Endo ttt (rct). Of lower 6 with 4 canals"
       alt_ar = "حاله ضرس رقم ٦ عصب لور"
       description_ar = "حاله ضرس رقم ٦ عصب لور"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/241e4aef-a072-437c-81d7-1440a58e5003"
+      alt = "Rct of upper 6 with composite final restoration"
+      description = "Rct of upper 6 with composite final restoration"
+      alt_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
+      description_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/dfd21c15-ae92-46d3-869c-5189491c3375"
+      alt = "Rct of lower 6"
+      description = "Rct of lower 6"
+      alt_ar = "عصب الضرس السادس سفلي"
+      description_ar = "عصب الضرس السادس سفلي"
 
   [[params.clinical_cases]]
     enabled = true
@@ -181,6 +209,20 @@ defaultContentLanguage = "en"
       description = "Operative case of lower 6 class 1 composite restoration"
       alt_ar = "حاله حشو عادي بالليزر لضرس ال سادس سفلي"
       description_ar = "حاله حشو عادي بالليزر لضرس ال سادس سفلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/bb1935b2-d3af-42eb-a219-2acdb0689f6b"
+      alt = "Composite restoration of lower 6"
+      description = "Composite restoration of lower 6"
+      alt_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
+      description_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
+    
+    [[params.clinical_cases.cases]]
+      photo = "https://github.com/user-attachments/assets/9be4afd7-25fb-4adb-b7ac-be58901bb33f"
+      alt = "Class V composite restoration of upper ant teeth"
+      description = "Class V composite restoration of upper ant teeth"
+      alt_ar = "حاله حشو تجميلي لأسنان إماميه"
+      description_ar = "حاله حشو تجميلي لأسنان إماميه"
 
   [[params.clinical_cases]]
     enabled = true
@@ -196,30 +238,6 @@ defaultContentLanguage = "en"
 
   [[params.clinical_cases]]
     enabled = true
-    category = "Surgery"
-    category_ar = "جراحه"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/d0551591-c7fc-43ec-a146-9248c814d9fe"
-      alt = "Extraction of multiple teeth"
-      description = "Extraction of multiple teeth"
-      alt_ar = "حاله خلع ضروس"
-      description_ar = "حاله خلع ضروس"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/bb1935b2-d3af-42eb-a219-2acdb0689f6b"
-      alt = "Composite restoration of lower 6"
-      description = "Composite restoration of lower 6"
-      alt_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
-      description_ar = "حاله حشو ليزر تجميلي للضرس السادس سفلي"
-
-  [[params.clinical_cases]]
-    enabled = true
     category = "Pediatric"
     category_ar = "بيدو"
     
@@ -229,47 +247,6 @@ defaultContentLanguage = "en"
       description = "Pulpotomy with st-st crown"
       alt_ar = "حاله حشو إزاله عصب جزئي للأطفال وعمل حشو وطربوش للحفاظ عليه"
       description_ar = "حاله حشو إزاله عصب جزئي للأطفال وعمل حشو وطربوش للحفاظ عليه"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Endodontics"
-    category_ar = "اندو"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/241e4aef-a072-437c-81d7-1440a58e5003"
-      alt = "Rct of upper 6 with composite final restoration"
-      description = "Rct of upper 6 with composite final restoration"
-      alt_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
-      description_ar = "حاله حشو عصب لضرس السادس علوي وتقفيله بالحشو الليزر"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Surgery"
-    category_ar = "جراحه"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/372e8043-47a2-4a9f-813b-261841a27290"
-      alt = "Extraction of lower 8 with 5 roots"
-      description = "Extraction of lower 8 with 5 roots"
-      alt_ar = "حاله خلع ضرس عقل ب ٥ جدور"
-      description_ar = "حاله خلع ضرس عقل ب ٥ جدور"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Operative"
-    category_ar = "اوبرتيف"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/9be4afd7-25fb-4adb-b7ac-be58901bb33f"
-      alt = "Class V composite restoration of upper ant teeth"
-      description = "Class V composite restoration of upper ant teeth"
-      alt_ar = "حاله حشو تجميلي لأسنان إماميه"
-      description_ar = "حاله حشو تجميلي لأسنان إماميه"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Pediatric"
-    category_ar = "بيدو"
     
     [[params.clinical_cases.cases]]
       photo = "https://github.com/user-attachments/assets/48ec6b6d-619b-4150-ae42-9d911c07dda7"
@@ -277,18 +254,6 @@ defaultContentLanguage = "en"
       description = "Bilateral Lower space maintainer"
       alt_ar = "حاله حافظ مسافه سفلي في الجانبين"
       description_ar = "حاله حافظ مسافه سفلي في الجانبين"
-
-  [[params.clinical_cases]]
-    enabled = true
-    category = "Endodontics"
-    category_ar = "Endodontics"
-    
-    [[params.clinical_cases.cases]]
-      photo = "https://github.com/user-attachments/assets/dfd21c15-ae92-46d3-869c-5189491c3375"
-      alt = "Rct of lower 6"
-      description = "Rct of lower 6"
-      alt_ar = "عصب الضرس السادس سفلي"
-      description_ar = "عصب الضرس السادس سفلي"
       
   # Contact Section
   [params.contact]
